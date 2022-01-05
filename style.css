@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: blueviolet;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.about-bangladesh {
+  display: flex;
+  width: 80%;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+.bangladesh-image img {
+  width: 160%;
+  padding-left: 20%;
+}
+
+.para {
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.head-title {
+  font-size: 50px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.button {
+  text-decoration: none;
+  padding: 15px 50px;
+  display: inline-block;
+  margin-top: 5px;
+  background-image: linear-gradient(45deg, green, red, green);
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: azure;
+  cursor: pointer;
+}
+
+.about-division {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.mymensingh {
+  width: 500px;
+  box-shadow: 4px 4px 12px gray;
+}
+
+.mym-image img {
+  width: 100%;
+}
+
+.dhaka {
+  width: 500px;
+  box-shadow: 4px 4px 12px gray;
+}
+
+.dhaka-image img {
+  width: 100%;
+}
+
+.cox-bazar {
+  width: 500px;
+  box-shadow: 4px 4px 12px gray;
+}
+
+.cox-img img {
+  width: 100%;
+}
+
+.all-division {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.bottom {
+  padding: 20px;
+}
+
+.details-button {
+  background-color: deeppink;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.details-button:hover {
+  cursor: pointer;
+  background-color: deepskyblue;
+  color: aliceblue;
+}
+
+.para-one {
+  text-align: justify;
+}
